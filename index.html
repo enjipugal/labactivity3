@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MATH BLAST!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-rocket">🚀</span>
+                <span>MATH<span class="logo-blast">BLAST!</span></span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#missions">Missions</a>
+                <a href="#quick-blast">Quick Blast</a>
+                <a href="#rewards">My Stars</a>
+            </nav>
+
+            <div class="star-counter">
+                <span>⭐</span>
+                <strong id="navStars">0</strong>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-stars">
+                <span>✦</span>
+                <span>★</span>
+                <span>✦</span>
+                <span>★</span>
+                <span>✦</span>
+            </div>
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <div class="mini-label">
+                        🎮 GRADE 1 MATH ADVENTURE
+                    </div>
+
+                    <h1>
+                        MATH
+                        <span>BLAST!</span>
+                    </h1>
+
+                    <h2>
+                        Count it. Solve it. <br>
+                        <span>Blast off! 🚀</span>
+                    </h2>
+
+                    <p>
+                        Welcome, little mathematician! Complete fun missions,
+                        solve puzzles, collect stars, and become a
+                        <strong>Math Blast Hero!</strong>
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#missions" class="primary-btn">
+                            🚀 START MISSION
+                        </a>
+
+                        <a href="#quick-blast" class="secondary-btn">
+                            ⚡ QUICK BLAST
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-art">
+
+                    <div class="planet planet-purple"></div>
+                    <div class="planet planet-orange"></div>
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="rocket-wrapper">
+
+                        <div class="rocket">
+                            🚀
+                        </div>
+
+                        <div class="flame">
+                            🔥
+                        </div>
+
+                    </div>
+
+                    <div class="floating-number number-one">7</div>
+                    <div class="floating-number number-two">+</div>
+                    <div class="floating-number number-three">3</div>
+                    <div class="floating-number number-four">★</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="missions-section" id="missions">
+
+            <div class="section-heading">
+
+                <div class="section-badge">
+                    🛸 MATH MISSIONS
+                </div>
+
+                <h2>
+                    Pick Your <span>Mission!</span>
+                </h2>
+
+                <p>
+                    Complete each mission and collect stars.
+                    Can you finish them all?
+                </p>
+
+            </div>
+
+
+            <div class="mission-map">
+
+                <div class="mission-line"></div>
+
+                <button
+                    class="mission-card mission-yellow"
+                    data-topic="numbers"
+                    type="button"
+                >
+
+                    <div class="mission-icon">
+                        🔢
+                    </div>
+
+                    <div class="mission-number">
+                        MISSION 01
+                    </div>
+
+                    <h3>
+                        Number Power
+                    </h3>
+
+                    <p>
+                        Count, identify, and explore numbers!
+                    </p>
+
+                </button>
+
+                <button
+                    class="mission-card mission-orange"
+                    data-topic="addition"
+                    type="button"
+                >
+
+                    <div class="mission-icon">
+                        ➕
+                    </div>
+
+                    <div class="mission-number">
+                        MISSION 02
+                    </div>
+
+                    <h3>
+                        Add Attack
+                    </h3>
+
+                    <p>
+                        Combine numbers and power up!
+                    </p>
+
+                </button>
+
+                <button
+                    class="mission-card mission-green"
+                    data-topic="subtraction"
+                    type="button"
+                >
+
+                    <div class="mission-icon">
+                        ➖
+                    </div>
+
+                    <div class="mission-number">
+                        MISSION 03
+                    </div>
+
+                    <h3>
+                        Take-Away Smash
+                    </h3>
+
+                    <p>
+                        Smash numbers and find what remains!
+                    </p>
+
+                </button>
+
+                <button
+                    class="mission-card mission-pink"
+                    data-topic="shapes"
+                    type="button"
+                >
+
+                    <div class="mission-icon">
+                        🔺
+                    </div>
+
+                    <div class="mission-number">
+                        MISSION 04
+                    </div>
+
+                    <h3>
+                        Shape Hunter
+                    </h3>
+
+                    <p>
+                        Find and recognize amazing shapes!
+                    </p>
+
+                </button>
+
+                <button
+                    class="mission-card mission-purple"
+                    data-topic="patterns"
+                    type="button"
+                >
+
+                    <div class="mission-icon">
+                        🔁
+                    </div>
+
+                    <div class="mission-number">
+                        MISSION 05
+                    </div>
+
+                    <h3>
+                        Pattern Power
+                    </h3>
+
+                    <p>
+                        Discover what comes next!
+                    </p>
+
+                </button>
+
+            </div>
+
+            <div class="progress-area">
+
+                <div class="progress-top">
+
+                    <div>
+                        <strong>🚀 Mission Progress</strong>
+                    </div>
+
+                    <div>
+                        <span id="completedCount">0</span>/5 Completed
+                    </div>
+
+                </div>
+
+                <div class="progress-track">
+
+                    <div
+                        class="progress-fill"
+                        id="progressFill"
+                    ></div>
+
+                </div>
+
+                <div class="progress-rocket" id="progressRocket">
+                    🚀
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="quick-section" id="quick-blast">
+
+            <div class="quick-container">
+
+                <div class="quick-left">
+
+                    <div class="lightning">
+                        ⚡
+                    </div>
+
+                    <div>
+
+                        <div class="quick-label">
+                            QUICK BLAST
+                        </div>
+
+                        <h2>
+                            Ready for a<br>
+                            <span>Speed Challenge?</span>
+                        </h2>
+
+                        <p>
+                            Answer before the timer runs out!
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quick-game">
+
+                    <div class="timer">
+                        ⏱️ <span id="timer">10</span>
+                    </div>
+
+                    <div
+                        class="quick-question"
+                        id="quickQuestion"
+                    >
+                        What is 2 + 3?
+                    </div>
+
+                    <div
+                        class="quick-options"
+                        id="quickOptions"
+                    ></div>
+
+                    <div
+                        class="quick-feedback"
+                        id="quickFeedback"
+                    ></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="rewards-section" id="rewards">
+
+            <div class="section-heading">
+
+                <div class="section-badge badge-purple">
+                    🏆 REWARD ZONE
+                </div>
+
+                <h2>
+                    Your <span>Math Stars</span>
+                </h2>
+
+                <p>
+                    Every correct answer makes your star collection grow!
+                </p>
+
+            </div>
+
+
+            <div class="reward-board">
+
+                <div class="big-star">
+                    ⭐
+                </div>
+
+                <div class="reward-info">
+
+                    <div class="star-number">
+                        <span id="rewardStars">0</span>
+                    </div>
+
+                    <div class="star-label">
+                        STARS COLLECTED
+                    </div>
+
+                    <div class="reward-message" id="rewardMessage">
+                        Start a mission to earn stars!
+                    </div>
+
+                </div>
+
+
+                <div class="badges">
+
+                    <div class="badge-item" id="badge1">
+                        <span>🌟</span>
+                        <small>STARTER</small>
+                    </div>
+
+                    <div class="badge-item" id="badge2">
+                        <span>🚀</span>
+                        <small>BLASTER</small>
+                    </div>
+
+                    <div class="badge-item" id="badge3">
+                        <span>🏆</span>
+                        <small>HERO</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div
+        class="modal"
+        id="missionModal"
+        aria-hidden="true"
+    >
+
+        <div class="modal-box">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+                type="button"
+            >
+                ×
+            </button>
+
+            <div
+                class="modal-icon"
+                id="modalIcon"
+            >
+                🔢
+            </div>
+
+            <div
+                class="modal-mission"
+                id="modalMission"
+            >
+                MISSION
+            </div>
+
+            <h2 id="modalTitle">
+                Number Power
+            </h2>
+
+            <p
+                class="modal-question"
+                id="modalQuestion"
+            >
+                Which number comes after 6?
+            </p>
+
+            <div
+                class="answer-grid"
+                id="answerGrid"
+            ></div>
+
+            <div
+                class="answer-feedback"
+                id="answerFeedback"
+            ></div>
+
+        </div>
+
+    </div>
+
+    <div
+        class="star-popup"
+        id="starPopup"
+    >
+        ⭐ +10 STARS!
+    </div>
+
+    <footer>
+
+        <div class="footer-logo">
+            🚀 MATH BLAST!
+        </div>
+
+        <p>
+            Learning math is an adventure! 🌟
+        </p>
+		
+        <div class="footer-shapes">
+            ● ▲ ■ ★
+        </div>
+		
+		<span class="footer-copy">
+            © Ace Pugal '26. All rights reserved.
+        </span>
+		
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
